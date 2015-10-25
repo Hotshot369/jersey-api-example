@@ -11,7 +11,7 @@ import com.fasterxml.jackson.datatype.guava.GuavaModule;
  * vice versa.  We can also register a variety of different Jackson Modules which contain the different
  * serializers/deserializers for special objects.  For this example, we include the GuavaModule to help us bind
  * objects that come from Google's Guava library.  All basic java objects convert fine, as long as there are
- * getters/setters for each variable and an empty contructor to construct with.
+ * getters/setters for each variable and an empty constructor to construct with.
  */
 @Provider
 public class ObjectMapperResolver implements ContextResolver<ObjectMapper> {
